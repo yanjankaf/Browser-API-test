@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 800px;
+    flex-direction: column;
+}
+.border-1px{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+#errorBox{
+    background-color: #ff00005e;
+    color: #000;
+    padding: 3px 5px;
+    display: none;
+}
+#successBox{
+    background-color: #09ec0956;
+    color: #000;
+    padding: 3px 5px;
+    display: none;
+}
